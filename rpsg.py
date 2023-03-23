@@ -16,4 +16,8 @@ while True:
     elif playeraction == "paper":
         if laptopaction == "rock":
             print("Paper covers rock! You win!")
-
+ else:
+            print("Scissors cuts paper! You lose.")
+    elif playeraction == "scissors":
+        if laptopaction == "paper":
+            print("Scissors cuts paper! You win!")
